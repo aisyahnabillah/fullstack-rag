@@ -17,7 +17,8 @@ app = FastAPI(
 # Allow frontend
 origins = [
     "http://localhost:3000",
-    "http://127.0.0.1:3000"
+    "http://127.0.0.1:3000",
+    "https://fullstack-rag.netlify.app/"
 ]
 
 app.add_middleware(
